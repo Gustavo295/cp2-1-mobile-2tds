@@ -13,19 +13,28 @@ export default styles = StyleSheet.create({
         left: 0,
         right: 0,
         top: 0,
-        height: 1000
+        height: 1000,
+    },
+    textDefault: {
+        fontSize: 20,
+        fontWeight: "bold",
+        color: "#1c3e00",
+        paddingBottom: 50
     },
     button: {
-        backgroundColor: "green",
-        borderRadius: 5,
-        width: 100,
+        backgroundColor: "#a8ff60",
+        borderRadius: 10,
+	borderColor: "#1c3e00",
+        width: 250,
         height: 50,
         alignItems: 'center',
         justifyContent: 'center',
+	marginBottom: 10,
     },
     textButton: {
-        fontSize: 14,
-        color: "white",
+        fontSize: 16,
+        fontWeight: "bold",
+        color: "#1c3e00",
     },
 
 })
