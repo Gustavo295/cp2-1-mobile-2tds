@@ -36,6 +36,13 @@ export default styles = StyleSheet.create({
         fontWeight: "bold",
         color: "#1c3e00",
     },
+    input: {
+        borderWidth: 1,
+        height: 50,
+        width: 300,
+        borderRadius: 15,
+        marginTop: 10
+      },
 
 })
 

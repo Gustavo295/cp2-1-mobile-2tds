@@ -7,7 +7,7 @@ export default function ScreenHome({navigation}){
     return(
         <View style={styles.container}>
             <LinearGradient
-                colors={['#f6fffa', '#e3ffee']}
+                colors={['#f6fffa', '#b1df33']}
                 style={styles.background}
             />
                 <View style={{flexDirection: "row"}}>
@@ -20,6 +20,10 @@ export default function ScreenHome({navigation}){
                 <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("ScreenRecycle")}>
                     <Text style={styles.textButton}>Pontos de reciclagem</Text>
                 </TouchableOpacity>
+                <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("AboutUs")}>
+                    <Text style={styles.textButton}>Sobre Nós</Text>
+                </TouchableOpacity>
+
         </View>
     )
 }
